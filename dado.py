@@ -1,6 +1,6 @@
 import random
 
-numero = random.randint(5,10)
+numero = random.randint(7,10)
 print(numero)
 
 if numero==8:
