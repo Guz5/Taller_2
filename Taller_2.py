@@ -52,10 +52,23 @@ print(a and b)
 #Sentencia if. Si se cumple una condicion (se valua como True)
 #se ejecuta un bloque de código
 
+print("---------Otro código---------") 
 
-print("línea 1")
+print("Línea 1")
 print("Línea 2")
-if 5>8:
+
+print("---------Otro código---------") 
+
+if 5>8 or 3<1:
     print("Esto se muestra si la condicion es verdadera")
 else:
     print("Esto se muestra si la condición es falsa")
+    
+print("---------Otro código---------") 
+    
+entrada=int(input("¿cuantos años tiene?:"))
+
+if entrada<18:
+    print("usted está chiquito")
+else: 
+    print("Ya está grande, deje de llorar")
